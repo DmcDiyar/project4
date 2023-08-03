@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.ilk {
+    min-height: 100vh;
+    background: url(./sunrise-scenery-chill-coffee-bart-simpson-digital-art-4k-wallpaper-uhdpaper.com-783@0@g.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+   
+    
+}
+
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    padding: 20px 100px;
+    z-index: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo {
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: 700;
+    color: wheat;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-left: 40px;
+    position: relative;
+    filter: brightness(100%);
+}
+
+.hero {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+em {
+    font-family: 'Times New Roman', Times, serif;
+    color: seagreen;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.başlık {
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    
+
+}
+
+.plan {
+    min-height: 105vh;
+    background: url(./wallpaperflare.com_wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius:10px 10px ;
+}
+
+.yazi {
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+    
+}
+
+.overflay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color:white;
+    z-index: 2;
+    
+    /* Diğer içeriklerden üstte olacak şekilde yüksek bir sıra numarası verin */
+}
+
+.lead{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 24px;
+     font-weight: 700;
+     
+
+     
+}
+.text-body-secondary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+    
+    
+}
+.başlık{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    font-size: 50px;
+}
+
+.arka{
+    
+    background: url(./118Z_2012.w026.n002.10B.p1.10.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
+    z-index:-1;
+    
+
+    
+}
+
+
+.indir{
+    margin-top: 50px;;
+}
+
+.circle-container {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--bs-secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    
+  }
+  
+  .circle-container img {
+    width: 150%;
+    height: 132%;
+    object-fit: cover;
+  }
+
+  .fw-normal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+  }
+  .hepimiz{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+  }
+  
